@@ -1,10 +1,10 @@
 package aoc
 
-import aoc.days.Two
+import aoc.days.TwoSecond
 
 fun main(args: Array<String>)
 {
-    val assignment = Two()
+    val assignment = TwoSecond()
     assignment.solve()
     println("Solution: ${assignment.result()}")
 }
